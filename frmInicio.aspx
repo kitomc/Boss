@@ -9,7 +9,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:TextBox ID="tb_valor1" runat="server"></asp:TextBox>
         <div>
+        	<asp:TextBox ID="tb_Valor2" runat="server"></asp:TextBox>
+			<br />
+			Resultado<br />
+			<br />
+			<asp:TextBox ID="tb_Resultado" runat="server"></asp:TextBox>
         </div>
     	<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
     </form>

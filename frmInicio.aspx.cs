@@ -17,6 +17,22 @@ namespace Boss
         protected void Button1_Click(object sender, EventArgs e)
         {
 
+            tb_Resultado.Text= (suma(tb_valor1,tb_Valor2)).ToString();
+
+
         }
+
+
+        public int suma( TextBox v1, TextBox v2)
+        {
+            int res,a,b;
+            a = int.Parse(v1.Text);
+            b= int.Parse(v2.Text);
+
+
+            return res = a + b;
+        }
+
+
     }
 }
