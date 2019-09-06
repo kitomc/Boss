@@ -15,7 +15,8 @@
 			<br />
 			Resultado<br />
 			<br />
-			<asp:TextBox ID="tb_Resultado" runat="server"></asp:TextBox>
+			<asp:Label ID="lb_Resultado" runat="server" Text="Label"></asp:Label>
+			<br />
         </div>
     	<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
     </form>

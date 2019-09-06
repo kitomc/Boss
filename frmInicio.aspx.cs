@@ -17,7 +17,7 @@ namespace Boss
         protected void Button1_Click(object sender, EventArgs e)
         {
 
-            tb_Resultado.Text= (suma(tb_valor1,tb_Valor2)).ToString();
+            lb_Resultado.Text= (suma(tb_valor1,tb_Valor2)).ToString();
 
 
         }
